@@ -1,5 +1,8 @@
 const buttons = document.querySelectorAll("button");
 const ans = document.getElementById("result");
+var win1 = new Audio('./audio/win.mp3');
+var loss1 = new Audio('./audio/lose.mp3')
+
 let playerScore1 = document.getElementById("user-score");
 let compScore1 = document.getElementById("computer-score")
 let playerScore = 0;
@@ -34,11 +37,13 @@ function winner(playerSelection, computerSelection){
          {
             playerScore++;
             playerScore1.textContent = playerScore;
+            win1.play();
             return "You Win " + playerSelection+" beats "+computerSelection
          }
          else{
             compScore++;
             compScore1.textContent = compScore 
+            loss1.play()
             return "You Loose " + computerSelection +" beats " + playerSelection
          }
 }
