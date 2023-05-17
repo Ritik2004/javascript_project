@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+}
+p{
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.buttons{
+   display: flex;
+   gap: 10px;
+}
+button{
+    border: none;
+    font-size: 3rem;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:all .3s ease-in-out
+}
+
+button:hover{
+    opacity: 0.7;
+}
+#rock{
+    background-color: violet;
+}
+#paper{
+    background-color: red;
+}
+#scissor{
+    background-color: green;
+}
+#user-score{
+    color: brown;
+}
+#computer-score{
+    color: cadetblue;
+}
