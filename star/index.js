@@ -11,7 +11,7 @@ for (let i = 0; i < 5; i++) {
 
   starImg.addEventListener("mouseover", () => onStarHover(i));
 
-  starImg.addEventListener("mouseleave", onStarOut());
+  starImg.addEventListener("mouseleave", onStarOut);
 
   starImg.addEventListener("click", () => onStarClick(i));
 }
