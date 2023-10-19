@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: blueviolet; */
+    
+}
+body{
+    background-color: blueviolet;
+}
+.timer{
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 3rem;
+    left: 23rem;
+    font-weight: 800;
+}
+.thought{
+    font-size: 20px;
+    font-weight: 400;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 200px ;
+    /* background-color: yellow; */
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    color: black;
+    background-color: yellow;
+    font-style: normal;
+}
+
+.box{
+    height: 200px;
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    
+    background-color: yellow;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
