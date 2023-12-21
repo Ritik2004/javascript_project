@@ -1,0 +1,95 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    margin: auto;
+    margin-top: 5%;
+    min-height: 400px;
+    height: 50vh;
+    width: 70%;
+    max-width: 300px;
+   
+    border-radius: 15px;
+    position: relative;
+    background-color: rgb(193, 190, 190);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.top{
+    height: 15vh;
+    background-color: rgb(52, 136, 163);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    position: relative;
+    min-height: 100px;
+}
+
+.image{
+    width: 30%;
+    height: 92%;
+    border-radius: 50%;
+    z-index: 999;
+    margin-top: 18%;
+    margin-left: 32%;
+    position: absolute;
+    
+    
+    border: 2px solid  rgb(52, 136, 163);;
+}
+
+.content{
+    /* margin-top: 53px;
+    margin-left: 76px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 37px;
+    margin-left: -21px;
+}
+
+.images{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -21px;
+}
+
+.fa-facebook{
+    font-size: 30px;
+}
+
+.fa-instagram{
+    font-size: 30px;
+}
+
+.fa-google{
+    font-size: 30px;
+}
+.fa-envelope{
+    font-size: 30px;
+}
+
+.btn{
+    margin-left: 63px;
+    margin-top: 17px;
+}
+
+button{
+    background-color: lightcoral;
+    color: white;
+    height: 10%;
+    /* width: 50%; */
+    padding: 8px;
+    border-radius: 56px;
+    border: none;
+}
+
+.footer{
+    margin-left: 60px;
+    margin-top: 26px;
+    font-weight: 100;
+}
